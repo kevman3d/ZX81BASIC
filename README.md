@@ -43,7 +43,7 @@ You should also install the ZX81 Monospace font.  It first checks the installed 
 			FONTPATH = pygame.font.match_font('courier')
 		self.charFont = pygame.font.Font(FONTPATH, self.charScale)		
 
-After that, make sure to comment out line 133 below - this selects Courier monospace font if the ZX81 font is not installed (its not great, but it was a backup option).  If you're never planning to ever select Courier, this line can be completely deleted.
+After that, make sure to comment out line 133 below - this selects courier monospace font if the ZX81 font is not installed (it was the one I felt likely to exist on most computer systems).  If you're never planning to ever select courier, this line can be completely deleted.
 
 All other files (pyBREAKOUT.py, pyDOGFIGHT.py, etc) are games that were translated and should provide plenty of examples on how to develop your own.  All code is heavily commented to make it easy to follow.
 
