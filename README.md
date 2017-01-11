@@ -12,16 +12,21 @@ offers an easy-to-learn language that is a lot of fun to work with and very powe
 solving and computational thinking is the same no matter what language you are using.  Translating BASIC to Python is easy when you
 understand the fundamentals of programming.
 
-## You can read about my BASIC project on my blog
+### Read about my BASIC project on my blog
 http://kevman3d.blogspot.co.nz/2015/07/basic-games-in-python-1982-would-be.html
+### Watch my presentation (and download project files)
+http://kevman3d.blogspot.co.nz/2015/09/python-and-basic-games-mumble-mumble.html
 
 # Python and external modules
-The scripts were developed in python 2.7.6, and external modules you will need when working with these scripts are:
+The scripts were developed in python 2.7 (well, 2.7.9 if you want to be specific) and a couple of external modules
 
-## Python Imaging Library (1.1.7)
+### Python
+https://www.python.org/downloads/
+
+### Python Imaging Library (1.1.7)
 http://www.pythonware.com/products/pil/
 
-## pygame (1.9.1)
+### pygame (1.9.1)
 http://www.pygame.org/wiki/GettingStarted
 
 # More soon...
