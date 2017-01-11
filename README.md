@@ -12,7 +12,7 @@ offers an easy-to-learn language that is a lot of fun to work with and very powe
 solving and computational thinking is the same no matter what language you are using.  Translating BASIC to Python is easy when you
 understand the fundamentals of programming.
 
-You can read about my BASIC project on my blog.
+## You can read about my BASIC project on my blog
 http://kevman3d.blogspot.co.nz/2015/07/basic-games-in-python-1982-would-be.html
 
 # Python and external modules
