@@ -32,18 +32,15 @@ http://www.dafont.com/zx81.font
 # Files description
 This repository contains the files needed to easily translate simple ZX81 BASIC programs into Python.  You will need the ZXBasic.py module (provides a simple class), and unzip all of the png glyphs (ZX81_glyphs.7z) into the same folder.
 
-You should also install the ZX81 Monospace font.  It first checks the installed fonts to see if it is installed.  You can tweak the source code to use the font file directly (if placed into the same folder). You will find line 132 in ZXBasic.py is commented out. Uncomment this line.
+You should also install the ZX81 Monospace font.  It first checks the installed fonts to see if it is installed.  You can tweak the source code to use the font file directly (if placed into the same folder). You will find line 132 in ZXBasic.py is commented out
 
-		# Search for ZX81 font, otherwise use Courier
-		# This expects the ZX81 font to have been properly installed
-		# on your system and no longer looks for it in the directory
-		FONTPATH = pygame.font.match_font('zx81')
-		if not FONTPATH:
-			#FONTPATH = "zx81.ttf"
-			FONTPATH = pygame.font.match_font('courier')
-		self.charFont = pygame.font.Font(FONTPATH, self.charScale)		
+	#FONTPATH = "zx81.ttf"
 
-After that, make sure to comment out line 133 below - this selects courier monospace font if the ZX81 font is not installed (it was the one I felt likely to exist on most computer systems).  If you're never planning to ever select courier, this line can be completely deleted.
+Uncomment this line.  Then either comment out, or delete the line below...
+
+	FONTPATH = pygame.font.match_font('courier')
+
+This selects courier monospace font if the ZX81 font is not installed (it was the one I felt likely to exist on most computer systems).  If you're never planning to ever use courier, this line can be completely deleted.  Note that you must ensure that you have the zx81.ttf file in the project if this is the case.
 
 All other files (pyBREAKOUT.py, pyDOGFIGHT.py, etc) are games that were translated and should provide plenty of examples on how to develop your own.  All code is heavily commented to make it easy to follow.
 
