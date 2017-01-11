@@ -1,5 +1,5 @@
-# ZXRemakerTools
-A handful of code created by me while developing ZX81/ZX Spectrum BASIC game listing "remakes" in Python.  Any updates or new tools will
+# ZX81BASIC
+A handful of code created by me while creating ZX81 BASIC game listing "remakes" in Python.  Any updates or new tools will
 be added to this repository over time.  So if you're a child of the 80's, sit back and enjoy that nostalgiac journey back to when life
 was great and computing was for nerds.
 ## The back story...
@@ -18,16 +18,24 @@ http://kevman3d.blogspot.co.nz/2015/07/basic-games-in-python-1982-would-be.html
 http://kevman3d.blogspot.co.nz/2015/09/python-and-basic-games-mumble-mumble.html
 
 # Python and external modules
-The scripts were developed in python 2.7 (well, 2.7.9 if you want to be specific) and a couple of external modules
+The scripts were developed in python 2.7 (well, 2.7.9 if you want to be specific) and external modules/fonts
 
 ### Python
 https://www.python.org/downloads/
 
-### Python Imaging Library (1.1.7)
-http://www.pythonware.com/products/pil/
-
 ### pygame (1.9.1)
 http://www.pygame.org/wiki/GettingStarted
 
-# More soon...
-I'll extend this read me with more information as I go.
+###ZX81 monospaced font
+http://www.dafont.com/zx81.font
+
+# Files description
+This repository contains the files needed to easily translate simple ZX81 BASIC programs into Python.  You will need the ZXBasic.py module (provides a simple class), and unzip all of the glyphs (ZX81_glyphs.7z) into the same folder.  You should also source the ZX81 Monospace font (place it into the same folder - makes it easy to access in pygame)
+
+All other files (pyBREAKOUT.py, pyDOGFIGHT.py, etc) are games that were translated and should provide plenty of examples on how to develop your own.  All code is heavily commented to make it easy to follow.
+
+## The games
+All games are translated from listings in the book "34 Amazing games for the 1K ZX81".  Book and game design (C) 1982,
+Alastair Gourlay, Mark Ramshaw and Interface publishing.
+
+This was THE book that started it all (for me).
