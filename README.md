@@ -26,7 +26,7 @@ https://www.python.org/downloads/
 ### pygame (1.9.1)
 http://www.pygame.org/wiki/GettingStarted
 
-###ZX81 monospaced font
+### ZX81 monospaced font
 http://www.dafont.com/zx81.font
 
 # Files description
